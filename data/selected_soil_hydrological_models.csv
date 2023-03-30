@@ -1,0 +1,14 @@
+Name;EcH2O-iso;DAISY;Hydrogeosphere;HYDRUS;mesoscale Hydrologic Model (mHM);ParFlow;MACRO
+Programming language(s) of source code;C++;C++;unknown;Fortran;Fortran;C++, Fortran;Visual Studio
+Availability;Open source;Open source;Proprietary;Stand-alone exe/code ;Open source;Open source;Stand-alone exe
+Distribution and installation ;"Compilation of source code; Requires compilation of asc2c";Compilation of source code;Stand-alone exe;Compilation of source code (version _4.08), Stand-alone exe (>4.08);Compilation of source code;"Compilation of source code; Requires compilation of Hypre and Silo";Stand-alone exe
+Documentation;Online;Manual;Manual;Manual;Online;Online;Manual
+I/O format for settings and data ;text and map files;text files;binary files;text files;NetCDF and nml files;text, binary NetCDF files;binary files
+Possibility of customization ;Possible with advanced programming skills;Possible but not supported systematically ;Not possible;Only possible for versions _4.08  but not supported systematically ;Possible with advanced programming skills;Possible with advanced programming skills;Not possible
+Pre- and post-processing ;Pre-processing is descibed in documentation;Not available;-;"External Python-Wrapper for HYDRUS-1D (Phydrus; Collenteur et al. (2019))";Python bindings are provided;Python bindings are provided;Not available
+Reproducible modelling experiments;No, but a modelling example is provided in the Online-Documentation;No;No;No, but modelling examples are provided;No, but modelling examples are provided;No, but modelling examples are provided;No, but a simple modelling example is provided
+Solutes;Stable water isotopes;Bromide, Nitrate;Particle tracking;Bromide, Chloride, Stable water isotopes;Nitrate;Particle tracking;Pesticides, Bromide
+Type;physically;physically;physically;physically;physically;physically;physically
+Spatial discretization;"2.5 D; finite-difference";"1D; finite-difference";"3D; finite-element";"1D-3D; finite-difference";"2.5 D; finite-difference";"3D; finite-difference";"1D; finite-difference"
+Temporal discretization;"fixed; hourly, daily";"fixed; hourly, daily";"fixed; hourly, daily";"fixed; hourly, daily";"fixed; hourly, daily";"fixed or adpative; minute to hourly";"fixed; hourly, daily"
+Main reference(s);Kuppel et al. (2018);Hansen et al. (2012), Abrahamsen et al. (2000);Therrien et al. (2010);S_im__nek et al. (2016);Kumar et al. (2013), Samaniego et al. (2010);Maxwell (2013), Maxwell and Miller (2005);Jarvis and Larsbo (2012)
