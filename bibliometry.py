@@ -5,6 +5,7 @@ import matplotlib as mpl
 import seaborn as sns
 mpl.use("agg")
 import matplotlib.pyplot as plt  # noqa: E402
+
 mpl.rcParams['font.size'] = 8
 mpl.rcParams['axes.titlesize'] = 8
 mpl.rcParams['axes.labelsize'] = 9
@@ -197,7 +198,7 @@ handles, labels = ax[1, 0].get_legend_handles_labels()
 ax[2, 0].legend(handles[::-1], labels[::-1], loc='upper left', fontsize=8, frameon=False, bbox_to_anchor=(-0.15, 1.0))
 ax[2, 0].set_axis_off()
 
-colors = ['#b2df8a', '#fdbf6f', '#cab2d6', '#a6cee3']
+colors = ['#ffffcc', '#a1dab4', '#41b6c4', '#225ea8']
 ax[0, 1].stackplot(df_models.index, df_models.cumsum(axis=0).T,
              labels=models, alpha=0.9, colors=colors, edgecolors=None, linewidth=0)
 ax[0, 1].set_xlim(df_models.index[0], df_models.index[-1])
